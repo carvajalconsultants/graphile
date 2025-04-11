@@ -1,0 +1,22 @@
+{
+  "name": "@carvajalconsultants/graphile",
+  "version": "0.0.1",
+  "description": "Graphile Preset with common configuration and plugins for CCI applications.",
+  "main": "index.ts",
+  "repository": "git@github.com:carvajalconsultants/graphile-preset.git",
+  "author": "Miguel Carvajal <omar@carvajalonline.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "publish": "yarn run build && npm publish"
+  },
+  "peerDependencies": {
+    "postgraphile": "^5.0.0-beta.40",
+    "@graphile-contrib/pg-order-by-related": "^2.0.0-beta.1",
+    "@graphile/simplify-inflection": "^8.0.0-beta.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
