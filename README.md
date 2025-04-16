@@ -5,7 +5,7 @@ Establishes a standard config for Graphile across our applications.
 Install the preset with:
 
 ```
-yarn add @carvajalconsultants/graphile
+yarn add postgraphile@beta @graphile-contrib/pg-order-by-related@beta @graphile/simplify-inflection@beta @carvajalconsultants/graphile
 ```
 
 Now your graphile.config.ts file should look something like:

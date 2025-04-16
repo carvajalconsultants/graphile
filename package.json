@@ -4,7 +4,7 @@
   "description": "Graphile Preset with common configuration and plugins for CCI applications.",
   "main": "index.ts",
   "repository": "git@github.com:carvajalconsultants/graphile-preset.git",
-  "author": "Miguel Carvajal <omar@carvajalonline.com>",
+  "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
   "license": "MIT",
   "peerDependencies": {
     "postgraphile": "^5.0.0-beta.40",
