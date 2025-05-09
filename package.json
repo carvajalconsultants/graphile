@@ -1,6 +1,6 @@
 {
   "name": "@carvajalconsultants/graphile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Graphile Preset with common configuration and plugins for CCI applications.",
   "main": "index.ts",
   "repository": "git@github.com:carvajalconsultants/graphile-preset.git",

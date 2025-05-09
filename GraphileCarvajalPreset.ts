@@ -25,6 +25,13 @@ export const GraphileCarvajalPreset: GraphileConfig.Preset = {
     explain: false,
   },
 
+  gather: {
+    /**
+     * Makes all function arguments required unless they have a DEFAULT.
+     */
+    pgStrictFunctions: true
+  },
+
   schema: {
     /**
      * Enforces strict null handling in database functions for better data reliability
